@@ -1,4 +1,4 @@
 
-class role::master {
-  include profile::simple_grid
+class profile::master {
+  include simple_grid
 }
