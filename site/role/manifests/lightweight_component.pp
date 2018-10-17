@@ -1,4 +1,8 @@
-class role::lightweight_component {
+class role::lightweight_component (
+  $id = 1
+){
   include profile::base
-  include profile::lightweight_component
+  class{ "profile::lightweight_component":
+    id => $id, 
+  }
 }
