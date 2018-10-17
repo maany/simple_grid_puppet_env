@@ -1,3 +1,7 @@
-class profile::lightweight_component {
-    include 'simple_grid::lightweight_component'
+class profile::lightweight_component (
+    $id
+){
+    class {'simple_grid::lightweight_component':
+        id => $id,
+    }
 }
