@@ -1,3 +1,0 @@
-[submodule "site/simple_grid"]
-	path = site/simple_grid
-	url = https://github.com/WLCG-Lightweight-Sites/simple_grid_puppet_module
